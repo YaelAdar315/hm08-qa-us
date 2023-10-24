@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-undef
 const page = require('../../page');
 const helper = require('../../helper');
 
