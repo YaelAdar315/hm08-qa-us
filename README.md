@@ -75,7 +75,7 @@ Part 1: page.js
 Most of the selectors were already defined and divided into categories. The page also contains the functions used to fill the addresses and phone number. The categories are Inputs, Buttons, Modals and Functions. I added a “Misc” category. I will explain the locators I added to the page.
 
 Inputs
-cardNumberField: ‘#number’ : Locates the element with the “number” id in the Urban Routes Source Code, which is used to store the string with the credit card number - hence the name cardNumberField selected using the camelCase format, as will be the case for all the other elements below.
+cardNumberField: ‘#number’ : Locates the element with the “number” id in the Urban Routes Source Code which is used to store the string with the credit card number - hence the name cardNumberField selected using the camelCase format, as will be the case for all the other elements below.
 
 messageToDriver: ‘#message’ : Locates the element with the “message” id in the Urban Routes Source Code, which is used to store the string with the message for the driver - hence messageToDriver.
 
