@@ -4,11 +4,27 @@ module.exports = {
     toField: '#to',
     phoneNumberField: '#phone',
     codeField: '#code',
+    cardNumberField: '#number',
+    messageToDriver: '#comment',
+    cardCode: '#code.card-input',
     // Buttons
     callATaxiButton: 'button=Call a taxi',
     phoneNumberButton: '//div[starts-with(text(), "Phone number")]',
     nextButton: 'button=Next',
     confirmButton: 'button=Confirm',
+    supportivePlanButton: 'div=Supportive',
+    paymentMethodButton: '//div[@class="pp-text"]',
+    addCard: '//div[contains(text(), "Add card")]',
+    linkButton: 'button=Link',
+    addBlanket: 'div=Blanket and handkerchiefs',
+    iceCreamButton: 'div=+',
+    closeButton: 'div.payment-picker.open > div.modal > div.section.active > button',
+    orderButton: 'div.smart-button-wrapper > button > span.smart-button-main',
+    // Misc
+    paymentMethod: 'div.pp-button.filled > div.pp-value > div.pp-value-text',
+    iceCreamNumber: '.counter .counter-value',
+    carSearch: 'div.order.shown > div.order-body > div.order-header > div > div.order-header-title',
+    driverInfo: 'div.order.shown > div.order-body > div.order-subbody > div.order-buttons > div:nth-child(1)',
     // Modals
     phoneNumberModal: '.modal',
     // Functions
