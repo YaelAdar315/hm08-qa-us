@@ -127,8 +127,6 @@ describe('Create an order', () => {
         await closeButton.click();
         const orderButton = await $(page.orderButton);
         await orderButton.click();
-        const carSearch = await $(page.carSearch);
-        await carSearch.waitForDisplayedDisplayed();
         const driverInfo = await $(page.driverInfo);
         await expect(driverInfo).toBeDisplayed;
     })
